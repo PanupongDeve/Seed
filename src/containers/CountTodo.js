@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import Button from '../components/Button'
-import {increment,decrement,reset} from '../action'
+import {increment,decrement,reset} from '../actions'
 import CurrentCount from '../components/CurrentCount'
 let  CountTodo = ({ dispatch }) =>{
     return (
