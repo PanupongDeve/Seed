@@ -24,3 +24,10 @@ export const increment = ()  => {
       p
     }
   }
+  
+  export const read = (string) => {
+    return {
+        type: 'READ',
+        string
+    }
+}

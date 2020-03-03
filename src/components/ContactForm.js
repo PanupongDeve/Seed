@@ -2,7 +2,7 @@ import React from 'react'
 import {Field, reduxForm} from 'redux-form'
 
 let ContactForm = props => {
-    const {handleSubmit} = props
+    const {handleSubmit,firstName} = props
     return (
         <form onSubmit={handleSubmit}>
             <div>
@@ -16,6 +16,7 @@ let ContactForm = props => {
 
             <button type="submit">Submit</button>
         </form>
+            
     )
 }
 

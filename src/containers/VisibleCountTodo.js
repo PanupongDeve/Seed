@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 
 import CurrentCount from '../components/CurrentCount'
-import {plus} from '../actions'
+import {plus} from '../actions/'
 
 
 const mapStateToProps = state => {

@@ -2,13 +2,13 @@ import React from 'react';
 
 import CountTodo from '../containers/CountTodo';
 import VisibleCountTodo from '../containers/VisibleCountTodo';
-import ContactPage from '../containers/ContactPage';
+import VisibleContactForm from '../containers/VisibleContactForm';
 
 
 
 const AppRouter = () => (
     <div>
-       <ContactPage />
+       <VisibleContactForm />
     </div>
 );
 
