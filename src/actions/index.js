@@ -25,9 +25,9 @@ export const increment = ()  => {
     }
   }
   
-  export const read = (string) => {
+  export const read = firstname => {
     return {
         type: 'READ',
-        string
+        firstname ,
     }
 }

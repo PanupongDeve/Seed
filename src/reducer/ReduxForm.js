@@ -1,7 +1,8 @@
 const ReduxForm = (state = 0 ,action) => {
     switch (action.type) {
         case 'READ' :
-            return state + `gg nice`
+            console.log(`READ`,action);
+            return state
         default:
             return state
     }
