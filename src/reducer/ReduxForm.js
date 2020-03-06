@@ -1,8 +1,8 @@
-const ReduxForm = (state = 0 ,action) => {
+const ReduxForm = (state = [] ,action) => {
     switch (action.type) {
         case 'READ' :
             console.log(`READ`,action);
-            return state
+            return state.concat([action.firstname])
         default:
             return state
     }
