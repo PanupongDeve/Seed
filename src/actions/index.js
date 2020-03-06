@@ -25,9 +25,9 @@ export const increment = ()  => {
     }
   }
   
-  export const read = firstname => {
+  export const addComment = data => {
     return {
-        type: 'READ',
-        firstname ,
+        type: 'ADD_COMMENT',
+        data ,
     }
 }
