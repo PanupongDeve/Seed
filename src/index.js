@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-
 
 import AppRouter from './routes/AppRoute';
 import configureStore from './store/configureStore';
-import {Provider } from 'react-redux';
-
-const store =  configureStore();
+import {Provider} from 'react-redux';
+import 'bootstrap/dist/css/bootstrap.min.css';
+const store = configureStore();
 
 const jsx = (
     <Provider store={store}>
-        <AppRouter />
+        <AppRouter/>
     </Provider>
 );
-ReactDOM.render(jsx,document.getElementById('root'));
+ReactDOM.render(jsx, document.getElementById('root'));
