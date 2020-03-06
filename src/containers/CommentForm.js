@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { addComment } from "../actions/";
+import { addComment } from "../actions";
 import {
   Col,
   Button,
@@ -27,7 +27,7 @@ class CommentForm extends Component {
   render() {
     return (
       <div>
-        <h1>Add Comment</h1>
+        <h3>Add Comment</h3>
         <form onSubmit={this.handleSubmit}>
           <FormGroup>
             <Label for="" sm={2}>

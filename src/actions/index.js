@@ -15,6 +15,14 @@ export const plus = p => {
   return { type: "PLUS_COUNTERS", p };
 };
 
+// Comment
 export const addComment = data => {
   return { type: "ADD_COMMENT", data };
 };
+
+export const delComment = id => {
+  return {
+    type: "DELETE_COMMENT",
+    id
+  }
+}
